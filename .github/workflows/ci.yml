@@ -27,7 +27,7 @@ jobs:
         run: bun run biome check
 
       - name: Run TypeScript typecheck
-        run: bunx tsc --noEmit
+        run: bunx next typegen && bunx tsc --noEmit
 
       - name: Build Next.js application
         run: bun run build
