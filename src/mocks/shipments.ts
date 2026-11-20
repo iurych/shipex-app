@@ -25,7 +25,7 @@ export interface Shipment {
   events: TrackingEvent[];
 }
 
-export const MOCK_SHIPMENT: Shipment[] = [
+export const MOCK_SHIPMENTS: Shipment[] = [
   {
     trackingCode: "SPX-984210-BR",
     carrier: "Shipex Express",
